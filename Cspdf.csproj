@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    
+    <!-- NuGet Package Metadata -->
+    <Authors>Samet UCA</Authors>
+    <Company>Samet UCA</Company>
+    <Product>Cspdf PDF Library</Product>
+    <Description>A comprehensive PDF library for .NET - Create, read, manipulate PDF documents with ease. Full-featured alternative to commercial PDF libraries like iText 7.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/sametuca/cspdf</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageTags>pdf;document;csharp;dotnet;pdf-generation;pdf-manipulation;itext;pdf-library</PackageTags>
+    <PackageProjectUrl>https://github.com/sametuca/cspdf</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release of Cspdf - A comprehensive PDF library for .NET with full iText 7 compatibility.</PackageReleaseNotes>
+    <Copyright>Copyright © 2024 Cspdf Contributors</Copyright>
+    
+    <!-- Package Requirements -->
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
+
