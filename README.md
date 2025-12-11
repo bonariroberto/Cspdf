@@ -2,6 +2,8 @@
 
 Cspdf is a powerful, feature-rich PDF library for .NET that provides comprehensive PDF creation, manipulation, and processing capabilities. It aims to be a complete alternative to commercial PDF libraries like iText 7.
 
+[![Publish to NuGet](https://github.com/sametuca/Cspdf/actions/workflows/publish.yml/badge.svg)](https://github.com/sametuca/Cspdf/actions/workflows/publish.yml)
+
 ## Features
 
 ### Core Functionality
