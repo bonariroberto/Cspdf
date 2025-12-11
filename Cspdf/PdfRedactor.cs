@@ -57,7 +57,7 @@ public class PdfRedactor
             foreach (var redaction in pageRedactions)
             {
                 using var brush = new SolidBrush(redaction.FillColor);
-                newPage.Graphics.FillRectangle(brush, redaction.Region);
+                newPage.Graphics.FillRectangle(brush, redaction.Region.X, redaction.Region.Y, redaction.Region.Width, redaction.Region.Height);
             }
         }
 

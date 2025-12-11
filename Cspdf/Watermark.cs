@@ -72,7 +72,8 @@ public class Watermark
         {
             var imageWidth = Image.Width * Opacity;
             var imageHeight = Image.Height * Opacity;
-            graphics.DrawImage(Image, -(float)imageWidth / 2, -(float)imageHeight / 2, (float)imageWidth, (float)imageHeight);
+            var rect = new RectangleF(-(float)imageWidth / 2, -(float)imageHeight / 2, (float)imageWidth, (float)imageHeight);
+            graphics.DrawImage(Image, rect);
         }
 
         graphics.ResetTransform();

@@ -80,7 +80,7 @@ public class HighlightAnnotation : Annotation
         if (!Visible) return;
 
         using var brush = new SolidBrush(Color.FromArgb(128, HighlightColor));
-        graphics.FillRectangle(brush, Bounds);
+        graphics.FillRectangle(brush, Bounds.X, Bounds.Y, Bounds.Width, Bounds.Height);
     }
 }
 
@@ -107,7 +107,7 @@ public class LinkAnnotation : Annotation
 
         // Draw link border
         using var pen = new Pen(Color.Blue, 1);
-        graphics.DrawRectangle(pen, Bounds);
+        graphics.DrawRectangle(pen, Bounds.X, Bounds.Y, Bounds.Width, Bounds.Height);
     }
 }
 

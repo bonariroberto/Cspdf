@@ -104,7 +104,7 @@ public class PdfOptimizer
             PageCount = document.Pages.Count,
             HasBookmarks = document.Bookmarks.Count > 0,
             HasForms = document.FormFields.Count > 0,
-            HasAnnotations = document.Pages.Any(p => p.Annotations.Count > 0)
+            HasAnnotations = document.Pages.OfType<PdfPage>().Any(p => p.Annotations.Count > 0)
         };
     }
 }

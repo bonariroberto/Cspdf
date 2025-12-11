@@ -37,5 +37,13 @@
     <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- Exclude test files from main project -->
+    <Compile Remove="Cspdf.Tests\**" />
+    <Content Remove="Cspdf.Tests\**" />
+    <EmbeddedResource Remove="Cspdf.Tests\**" />
+    <None Remove="Cspdf.Tests\**" />
+  </ItemGroup>
+
 </Project>
 
