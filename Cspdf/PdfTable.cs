@@ -211,3 +211,4 @@ public class PdfTable
     internal bool HasHeader => _hasHeader;
 }
 
+

@@ -94,3 +94,4 @@ public class RedactionRegion
     public Color FillColor { get; set; } = Color.Black;
 }
 
+

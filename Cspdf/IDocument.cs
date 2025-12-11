@@ -46,3 +46,4 @@ public interface IDocument : IDisposable
     byte[] ToByteArray();
 }
 
+

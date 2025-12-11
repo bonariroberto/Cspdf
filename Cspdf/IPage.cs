@@ -36,3 +36,4 @@ public interface IPage
     int Rotation { get; set; }
 }
 
+

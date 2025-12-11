@@ -78,3 +78,4 @@ public abstract class OcrEngineBase : IOcrEngine
     }
 }
 
+
